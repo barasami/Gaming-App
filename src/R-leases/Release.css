@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: serif;
+}
+.pubnews{
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    justify-content: center;
+}
+.pubtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: seagreen;
+    letter-spacing: .2em;
+    margin-bottom: .3em;
+}
+.pubimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .2em;
+    
+}
+.pubrelease{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .2em;
+
+}
+.pubprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .2em;
+
+}

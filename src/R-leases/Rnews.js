@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { releaseMovies } from './Release'
+import './Release.css'
 
 function Rnews() {
     const[release,setRelease]=useState([])
@@ -15,17 +16,17 @@ function Rnews() {
         const{title,image,price,releaseDate}=mydata
 
         return(
-            <div className='pubnews'>
-                <div>
+            <div className='pubnews' key={title}>
+                <div className='pubtitle'>
                     {title}
                 </div>
-                <div>
+                <div className='pubimg'>
                     <img src={image} alt={title}/>
                 </div>
-                <div>
+                <div className='pubrelease'>
                     {releaseDate}
                 </div>
-                <div>
+                <div className='pubprice'>
                     {price}
                 </div>
             </div>
