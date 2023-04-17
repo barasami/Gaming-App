@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:serif;
+}
+.paper{
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .4em;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: .3em;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+
+.newspage{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
