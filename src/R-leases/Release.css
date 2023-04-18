@@ -11,9 +11,6 @@
     justify-content: center;
 }
 .pubtitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: large;
     text-transform: uppercase;
     font-weight: lighter;
@@ -21,24 +18,20 @@
     letter-spacing: .2em;
     margin-bottom: .3em;
 }
-.pubimg{
+.mybody{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.pubimg{
     margin-bottom: .2em;
     
 }
 .pubrelease{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: .2em;
 
 }
 .pubprice{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: .2em;
 
 }

@@ -17,17 +17,19 @@ function Rnews() {
 
         return(
             <div className='pubnews' key={title}>
-                <div className='pubtitle'>
-                    {title}
-                </div>
-                <div className='pubimg'>
-                    <img src={image} alt={title}/>
-                </div>
-                <div className='pubrelease'>
-                    {releaseDate}
-                </div>
-                <div className='pubprice'>
-                    {price}
+                <div className='mybody'>
+                    <div className='pubtitle'>
+                       Title {title}
+                    </div>
+                    <div className='pubimg'>
+                        <img src={image} alt={title}/>
+                    </div>
+                    <div className='pubrelease'>
+                        {releaseDate}
+                    </div>
+                    <div className='pubprice'>
+                        {price}
+                    </div>
                 </div>
             </div>
         )
