@@ -22,7 +22,7 @@ function Rnews() {
                        Title {title}
                     </div>
                     <div className='pubimg'>
-                        <img src={image} alt={title}/>
+                        <img src={image} alt={title} className='img'/>
                     </div>
                     <div className='pubrelease'>
                         {releaseDate}
