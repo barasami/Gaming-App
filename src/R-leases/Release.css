@@ -3,12 +3,13 @@
     padding: 0px;
     margin: 0px;
     font-family: serif;
+    background-color: #e0e0e0;
 }
 .pubnews{
-    margin-left: 25%;
-    margin-right: 25%;
     align-items: center;
     justify-content: center;
+    padding: .2em;
+    
      
 }
 .pubtitle{
@@ -19,15 +20,29 @@
     letter-spacing: .2em;
     margin-bottom: .3em;
     margin-bottom: 1em;
+    padding: .7em;
 }
 .mybody{
-   margin-left: 20%;
-   margin-right: 20%;
+   margin-left: 25%;
+   margin-right: 25%;
    align-items: center;
    justify-content: center;
+   
+   
+  
+}
+.hr{
+    color: black;
+    font-weight: bolder;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    justify-content: center;
+
 }
 .pubimg{
     margin-bottom: 2em;
+    padding: .7em;
     
 }
 .img{
@@ -35,10 +50,12 @@
     width: 70%;
 }
 .pubrelease{
-    margin-bottom: 1.2em;
+    margin-left: 1em;
+    padding: .2em;
 
 }
 .pubprice{
-    margin-bottom: 1.2em;
+    margin-left: 1em;
+    padding: .2em;
 
 }

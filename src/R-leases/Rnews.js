@@ -19,11 +19,12 @@ function Rnews() {
             <div className='pubnews' key={title}>
                 <div className='mybody'>
                     <div className='pubtitle'>
-                       Title {title}
+                       {title}
                     </div>
                     <div className='pubimg'>
                         <img src={image} alt={title} className='img'/>
                     </div>
+                    <hr className='hr'></hr>
                     <div className='pubrelease'>
                         {releaseDate}
                     </div>
