@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import { gameNews } from './gamingnews'
 import './Gnews.css'
+import { CircularProgress } from '@mui/material'
 
 function Gnews() {
     const[news,setNews]=useState([])
+    const[load,setLoad]=useState(false)
 
     useEffect(()=>{
+        setLoad(true)
         gameNews()
         .then(({data})=>{
             setNews(data)
             console.log(data);
+            setLoad(false)
         })
     },[])
 
@@ -47,7 +51,11 @@ function Gnews() {
 
   return (
     <div className='newspage'>
-        {Ndata}
+        {load ? <CircularProgress className='circular' color='primary'/> : 
+        <div>
+            {Ndata}
+        </div>}
+        
     </div>
   )
 }
