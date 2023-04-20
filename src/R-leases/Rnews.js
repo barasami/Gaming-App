@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import { releaseMovies } from './Release'
 import './Release.css'
+import { CircularProgress } from '@mui/material'
 
 function Rnews() {
     const[release,setRelease]=useState([])
+    const [load,setLoad]=useState(false)
     useEffect(()=>{
+        setLoad(true)
         releaseMovies()
         .then(({data})=>{
             setRelease(data)
             console.log(data);
+            setLoad(false)
         })
     },[])
 
@@ -37,7 +41,11 @@ function Rnews() {
     })
   return (
     <div>
-        {coolRelease}
+        {load? <CircularProgress color='primary' className='circular'/> : 
+        <div>
+            {coolRelease}
+        </div>}
+        
     </div>
   )
 }

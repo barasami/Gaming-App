@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import { DehazeIcon,ClearIcon } from '@mui/icons-material'
+import DehazeIcon from '@mui/icons-material/Dehaze';
+import ClearIcon from '@mui/icons-material/Clear';
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const[menu,setMenu]=useState(false)
@@ -10,16 +12,16 @@ function Navbar() {
     }
   return (
     <nav className='navbar'>
-        <div className='title'>SimpleNav</div>
+        <div className='title'>GamingHub</div>
         <div className='mymenu' onClick={changeMe}>
             {menu ? <DehazeIcon className='icon'/>: <ClearIcon className='icon'/>  }
         </div>
         <div className={menu ? 'Dontshow' : 'show'}>
             <ul>
-                <li><a href='#'>home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Products</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/news'>Home</Link></li>
+                <li><Link to='/sale'>Home</Link></li>
+                
             </ul>
         </div>
     </nav>
