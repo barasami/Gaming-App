@@ -17,12 +17,30 @@ function Homeonsale() {
     },[])
 
     const onsale=sale?.map((saling)=>{
-        const{id,description,currentprice}=saling
+        const{id,description,currentPrice,title,publisherName,keyImages,price}=saling
+        const img=keyImages[0].url
+        const link=price.url
         return(
-            <div key={id}>
-                <div>
-                    <div>{description}</div>
-                    <div>{currentprice}</div>
+            <div key={id} className='pubnews'>
+                <div className='mybody'>
+                    <div className='pubtitle'>
+                        {title}
+                    </div>
+                    <div className='pubimg'>
+                        <img src={img} alt={title} className='img'/>
+                    </div>
+                    <div>
+                        {description}
+                    </div>
+                    <div className='pubprice'>
+                        {currentPrice}
+                    </div>
+                    <div>
+                        {publisherName}
+                    </div>
+                    <div>
+                        <a href={link} target='_blank' rel="noreferrer">View</a>
+                    </div>
                 </div>
             </div>
         )

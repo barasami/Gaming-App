@@ -18,7 +18,6 @@ function Rnews() {
 
     const coolRelease=release?.map((mydata)=>{
         const{title,image,price,releaseDate}=mydata
-
         return(
             <div className='pubnews' key={title}>
                 <div className='mybody'>
