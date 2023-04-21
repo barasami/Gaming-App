@@ -2,34 +2,84 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family:serif;
+    font-family: serif;
+    background-color: #e0e0e0;
 }
 .paper{
-    margin-bottom: 2em;
-    margin-left: 20%;
-    margin-right: 20%;
     align-items: center;
     justify-content: center;
+    padding: .2em;    
 }
-.title{
-    display: flex;
+.cooltitle{
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: seagreen;
+    letter-spacing: .2em;
+    margin-bottom: 1em;
+    padding: .7em;
+}
+.coolbody{
+   margin-left: 25%;
+   margin-right: 25%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5%;
+}
+.paragraph{
+    color: #00695c;
+}
+.hr{
+    color: black;
+    font-weight: bolder;
+    margin-left: 3%;
+    margin-right: 3%;
     align-items: center;
     justify-content: center;
-    margin-bottom: .4em;
-}
-.images{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: .3em;
-}
 
+}
+.coolimg{
+    margin-bottom: 2em;
+    padding: .7em;
+    
+}
 .img{
-    width: 50%;
-    height: 50%;
+    height: 70%;
+    width: 70%;
+}
+.pubrelease{
+    margin-left: 1em;
+    padding: .2em;
+
+}
+.pub{
+    margin-left: 1.4em;
+    padding: .2em;
+
+}
+.date{
+    margin-left: 1.4em;
+    padding: .2em;
+
+}
+.dev{
+    margin-left: 1.4em;
+    padding: .2em;
+
+}
+.genre{
+    margin-left: 1.4em;
+    padding: .2em;
+
+}
+.description{
+    margin-left: 1em;
+    padding: .2em;
+}
+.circular{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    
 }
 
-.newspage{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}

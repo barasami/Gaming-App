@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: serif;
+    background-color: #e0e0e0;
+}
+.mydate{
+    align-items: center;
+    justify-content: center;
+    padding: .2em;  
+}
+.Rtime{
+    margin-top: 5%;
+    margin-left: 25%;
+   margin-right: 25%;
+   align-items: center;
+   justify-content: center;
+
+}
+.daten{
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #212121;
+    letter-spacing: .2em; 
+}
