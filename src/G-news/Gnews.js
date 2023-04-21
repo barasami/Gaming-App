@@ -51,7 +51,7 @@ function Gnews() {
 
   return (
     <div className='newspage'>
-        {load ? <CircularProgress className='circular' color='primary'/> : 
+        {load ? <CircularProgress className='circular' color='inherit'/> : 
         <div>
             {Ndata}
         </div>}

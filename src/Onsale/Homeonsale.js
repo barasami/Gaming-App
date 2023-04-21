@@ -47,7 +47,7 @@ function Homeonsale() {
     })
   return (
     <div>
-        {load ? <CircularProgress className='circular' color='primary'/> :<div>
+        {load ? <CircularProgress className='circular' color='inherit'/> :<div>
             {onsale}
         </div>}
         
