@@ -18,7 +18,8 @@ function Gnews() {
     },[])
 
     const Ndata=news?.map((mynews)=>{
-        const{date,description,image,link,title,id}=mynews
+        const{id,title,developer,publisher,release_date,short_description,
+        genre,freetogame_profile_url,thumbnail,game_url}=mynews
 
         return(
             <div key={id} className='paper' elevation={2}>
@@ -28,18 +29,30 @@ function Gnews() {
                     </div>
                 </div>
                 <div className='images'>
-                    <img src={image} alt={title} className='img'/>
+                    <img src={freetogame_profile_url} alt={title} className='img'/>
                 </div>
                 <div className='description'>
                     <div>
-                        {description}
+                        {short_description}
                     </div>
                 </div>
                 <div>
-                    {date}
+                    {genre}
                 </div>
                 <div>
-                    <a href={link} target='_blank' rel="noreferrer" >Visit Site</a>
+                    {developer}
+                </div>
+                <div>
+                    {publisher}
+                </div>
+                <div>
+                    {release_date}
+                </div>
+                <div>
+                    <img src={thumbnail} alt={title} className='img'/>
+                </div>
+                <div>
+                    <a href={game_url} target='_blank' rel="noreferrer" >Visit Site</a>
                 </div>
                 
             </div>

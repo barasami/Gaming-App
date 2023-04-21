@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const Url='https://videogames-news2.p.rapidapi.com/videogames_news/search_news'
+const Url='https://free-to-play-games-database.p.rapidapi.com/api/filter'
 
 const options = {
-    params: {query: 'GTA'},
+    params: {tag: '3d.mmorpg.fantasy.pvp', platform: 'pc'},
     headers: {
       'X-RapidAPI-Key': '87f0c01e35msh8962c83c8aef89ap1e9713jsnbf3fe9f2f818',
-      'X-RapidAPI-Host': 'videogames-news2.p.rapidapi.com'
+      'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
     }
 };
 
