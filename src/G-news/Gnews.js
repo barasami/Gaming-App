@@ -46,6 +46,7 @@ function Gnews() {
                     <div className='coolimg'>
                         <img src={thumbnail} alt={title} className='img'/>
                     </div>
+                    <hr className='hr'></hr>
                     <div>
                         <a href={game_url} target='_blank' rel="noreferrer" >Visit Site</a>
                     </div>
@@ -62,6 +63,9 @@ function Gnews() {
     <div className='newspage'>
         <div>
             <Time/>
+        </div>
+        <div className='mydiv'>
+          <h3 className='head'>FREE GAMES</h3>
         </div>
         {load ? <CircularProgress className='circular' color='inherit'/> : 
         <div>

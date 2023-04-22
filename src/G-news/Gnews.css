@@ -10,6 +10,19 @@
     justify-content: center;
     padding: .2em;    
 }
+.head{
+    color: #1b5e20;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: underline;
+    padding: .2em;
+}
+.mydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cooltitle{
     font-size: large;
     text-transform: uppercase;
@@ -81,5 +94,14 @@
     left: 50%;
     position: fixed;
     
+}
+.hr{
+    color: black;
+    font-weight: bolder;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    justify-content: center;
+
 }
 
