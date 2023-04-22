@@ -5,6 +5,7 @@ import Homeonsale from './Onsale/Homeonsale';
 import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import { Fragment } from 'react';
 import Navbar from './Navbar/Navbar';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/news' element={<Rnews/>}/>
             <Route path='/sale' element={<Homeonsale/>}/>
           </Routes>
+          <Footer/>
         </Fragment>
       </Router>
     </div>
