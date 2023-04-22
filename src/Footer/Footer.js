@@ -9,19 +9,17 @@ function Footer() {
     <div className='footer'>
         <div className='content'>
             <div className='icones'>
-                <div>
-                    <WhatsAppIcon/>
+                <div className='whatsapp'>
+                    <WhatsAppIcon color='#5a5858' className='icon'/>
                 </div>
-                <div>
-                    <InstagramIcon/>
+                <div className='instagram'>
+                    <InstagramIcon color='#5a5858' className='icon'/>
                 </div>
-                <div>
-                    <TwitterIcon/>
+                <div className='twitter'>
+                    <TwitterIcon color='#5a5858' className='icon'/>
                 </div>
             </div>
-            <div className='copy'>
-                <p>&Copy;hello</p>
-            </div>
+           
         </div>
     </div>
   )

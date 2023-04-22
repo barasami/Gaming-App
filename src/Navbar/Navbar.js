@@ -19,8 +19,8 @@ function Navbar() {
         <div className={menu ? 'Dontshow' : 'show'}>
             <ul>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/news'>News</Link></li>
-                <li><Link to='/sale'>Releases</Link></li>
+                <li><Link to='/news'>Releases</Link></li>
+                <li><Link to='/sale'>News</Link></li>
                 
             </ul>
         </div>

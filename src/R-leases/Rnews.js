@@ -41,7 +41,7 @@ function Rnews() {
   return (
     <div>
         {load? <CircularProgress color='inherit' className='circular'/> : 
-        <div>
+        <div className='dispcontent'>
             {coolRelease}
         </div>}
         

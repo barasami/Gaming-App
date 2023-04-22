@@ -62,14 +62,14 @@ function Gnews() {
   return (
     <div className='newspage'>
         <div>
-            <Time/>
+          <Time/>
         </div>
         <div className='mydiv'>
           <h3 className='head'>FREE GAMES</h3>
         </div>
         {load ? <CircularProgress className='circular' color='inherit'/> : 
         <div>
-            {Ndata}
+           {Ndata}
         </div>}
         
     </div>
