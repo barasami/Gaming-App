@@ -3,7 +3,11 @@ import './Form.css'
 
 function Form() {
   return (
-    <div>Form</div>
+    <div>
+      <div>
+        <p>Hello there</p>
+      </div>
+    </div>
   )
 }
 

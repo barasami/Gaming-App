@@ -13,7 +13,6 @@ function Gnews() {
         gameNews()
         .then(({data})=>{
             setNews(data)
-            console.log(data);
             setLoad(false)
         })
     },[])
@@ -23,7 +22,7 @@ function Gnews() {
         genre,thumbnail,game_url}=mynews
 
         return(
-            <div key={id} className='paper' elevation={2}>
+            <div key={id} className='paper'>
                 <div className='coolbody'>
                     <div className='cooltitle'>
                        {title}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { releaseMovies } from './Release'
 import './Release.css'
 import { CircularProgress } from '@mui/material'
-import Form from '../Form/Form'
+
 
 function Rnews() {
     const[release,setRelease]=useState([])
@@ -12,7 +12,6 @@ function Rnews() {
         releaseMovies()
         .then(({data})=>{
             setRelease(data)
-            console.log(data);
             setLoad(false)
         })
     },[])
@@ -41,14 +40,10 @@ function Rnews() {
     })
   return (
     <div>
-        <div>
-            <Form/>
-        </div>
         {load? <CircularProgress color='inherit' className='circular'/> : 
         <div className='dispcontent'>
             {coolRelease}
         </div>}
-        
     </div>
   )
 }

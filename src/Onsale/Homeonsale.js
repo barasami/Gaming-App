@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { onSale } from './Onsale'
 import { CircularProgress } from '@mui/material';
+import Form from '../Form/Form';
 
 function Homeonsale() {
     const [sale,setSale]=useState([])
@@ -10,7 +11,6 @@ function Homeonsale() {
         onSale()
         .then(({data})=>{
             setSale(data)
-            console.log(data);
             setLoad(false)
         })
 
@@ -21,8 +21,8 @@ function Homeonsale() {
         const img=keyImages[0].url
         const link=price.url
         return(
-            <div key={id} className='pubnews'>
-                <div className='mybody'>
+            <div key={id} className='paper'>
+                <div className='coolbody'>
                     <div className='pubtitle'>
                         {title}
                     </div>
@@ -46,9 +46,12 @@ function Homeonsale() {
         )
     })
   return (
-    <div >
+    <div>
+        <div>
+            <Form/>
+        </div>
         {load ? <CircularProgress className='circular' color='inherit'/> :
-        <div className='dispcontent'>
+        <div>
             {onsale}
         </div>}
         

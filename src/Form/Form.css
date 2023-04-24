@@ -5,3 +5,8 @@
     font-family: serif;
     background-color: #e0e0e0;
 }
+.myform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
