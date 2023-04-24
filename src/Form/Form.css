@@ -5,8 +5,53 @@
     font-family: serif;
     background-color: #e0e0e0;
 }
+.coolform{
+    align-items: center;
+    justify-content: center;
+    padding: .2em;  
+}
+.formdetail{
+    margin-top: 7%;
+    margin-left: 25%;
+   margin-right: 25%;
+   align-items: center;
+   justify-content: center;
+
+}
 .myform{
+    margin-left: 25%;
+    padding: .3em;
+    margin-right: 25%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.input{
+    margin: .5em;
+}
+.btn{
+    margin: .5em;
+}
+.myinput{
+    padding: .5em;
+    border: 1px solid #00695c;
+    border-radius: 3px;
     display: flex;
+    justify-content: stretch;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.mybtn{
+    padding: .5em;
+    border: 1px solid #00695c;
+    border-radius: 3px;
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    background-color: #00695c;
+    color: white;
     align-items: center;
     justify-content: center;
 }
