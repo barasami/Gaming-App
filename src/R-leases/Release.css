@@ -124,5 +124,59 @@
     
 }
 @media screen and (max-width: 300px) {
+    .pubtitle{
+        font-size: medium;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: seagreen;
+        letter-spacing: .2em;
+        margin-bottom: .3em;
+        margin-bottom: 1em;
+        padding: .5em;
+    }
+    .mybody{
+       margin-left: 15%;
+       margin-right: 15%;
+       align-items: center;
+       justify-content: center;
+       margin-top: 10%; 
+    }
+    .hr{
+        color: black;
+        font-weight: bolder;
+        margin-left: 2%;
+        margin-right: 2%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .pubimg{
+        margin-bottom: 2em;
+        padding: .7em;
+        
+    }
+    .img{
+        height: 50%;
+        width: 50%;
+    }
+    .pubrelease{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .pubprice{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .circular{
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        
+    }
+    .dispcontent{
+        margin-bottom: 5em;
+    }
     
 }

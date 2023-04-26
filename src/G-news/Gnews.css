@@ -115,7 +115,7 @@
         margin-right: 20%;
         align-items: center;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 15%;
     }
     .cooltitle{
         font-size: large;
@@ -181,7 +181,146 @@
     }
     
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
+    .coolbody{
+        margin-left: 18%;
+        margin-right: 18%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+    .cooltitle{
+        font-size: large;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: seagreen;
+        letter-spacing: .2em;
+        margin-bottom: 1em;
+        padding: .6em;
+    }
+    .hr{
+        color: black;
+        font-weight: bolder;
+        margin-left: 2%;
+        margin-right: 2%;
+        align-items: center;
+        justify-content: center;
     
+    }
+    .coolimg{
+        margin-bottom: 2em;
+        padding: .6em;
+        
+    }
+    .img{
+        height: 50%;
+        width: 50%;
+    }
+    .pubrelease{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .pub{
+        margin-left: 1.4em;
+        padding: .2em;
+    
+    }
+    .date{
+        margin-left: 1.4em;
+        padding: .2em;
+    
+    }
+    .dev{
+        margin-left: 1.4em;
+        padding: .2em;
+    
+    }
+    .genre{
+        margin-left: 1.4em;
+        padding: .2em;
+    
+    }
+    .description{
+        margin-left: 1em;
+        padding: .2em;
+    }
+    .circular{
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        
+    }
+}
+@media screen and (max-width: 300px) {
+    .coolbody{
+        margin-left: 12%;
+        margin-right: 12%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+    .cooltitle{
+        font-size: large;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: seagreen;
+        letter-spacing: .1em;
+        margin-bottom: 1em;
+        padding: .5em;
+    }
+    .hr{
+        color: black;
+        font-weight: bolder;
+        margin-left: 2%;
+        margin-right: 2%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .coolimg{
+        margin-bottom: 1.5em;
+        padding: .4em;
+        
+    }
+    .img{
+        height: 50%;
+        width: 50%;
+    }
+    .pubrelease{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .pub{
+        margin-left: 1.1em;
+        padding: .2em;
+    
+    }
+    .date{
+        margin-left: 1.1em;
+        padding: .2em;
+    
+    }
+    .dev{
+        margin-left: 1.1em;
+        padding: .2em;
+    
+    }
+    .genre{
+        margin-left: 1.1em;
+        padding: .2em;
+    
+    }
+    .description{
+        margin-left: 1em;
+        padding: .2em;
+    }
+    .circular{
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        
+    }
 }
 
