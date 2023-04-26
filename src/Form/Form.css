@@ -57,3 +57,43 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 600px) {
+    .coolform{
+        padding: .15em;
+    }
+    .formdetail{
+        display: flex;
+        margin-top: 12%;
+        margin-left: 20%;
+        margin-right: 20%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .myform{
+        display: flex;
+        margin-left: 35%;
+        padding: .3em;
+        margin-right: 35%;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    .mybtn{
+        padding: .4em;
+        border: 1px solid #00695c;
+        border-radius: 3px;
+        display: flex;
+        justify-content: stretch;
+        width: 100%;
+        background-color: #00695c;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    
+}

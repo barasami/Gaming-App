@@ -1,3 +1,15 @@
 .mycoolitem{
     margin-top: 5em;
 }
+
+@media screen and (max-width: 600px) {
+    .mycoolitem{
+        margin-top: 7em;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .mycoolitem{
+        margin-top: 7em;
+    }
+}

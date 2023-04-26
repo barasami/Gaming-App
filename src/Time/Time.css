@@ -25,3 +25,24 @@
     color: #212121;
     letter-spacing: .2em; 
 }
+@media screen and (max-width: 600px) {
+    .Rtime{
+        margin-top: 5%;
+        margin-left: 20%;
+       margin-right: 20%;
+       align-items: center;
+       justify-content: center;
+    
+    }
+    .daten{
+        font-size: large;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: #212121;
+        letter-spacing: .1em; 
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    
+}

@@ -66,3 +66,63 @@
 .dispcontent{
     margin-bottom: 5em;
 }
+@media screen and (max-width: 600px) {
+    .pubtitle{
+        font-size: medium;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: seagreen;
+        letter-spacing: .2em;
+        margin-bottom: .3em;
+        margin-bottom: 1em;
+        padding: .7em;
+    }
+    .mybody{
+       margin-left: 20%;
+       margin-right: 20%;
+       align-items: center;
+       justify-content: center;
+       margin-top: 5%; 
+    }
+    .hr{
+        color: black;
+        font-weight: bolder;
+        margin-left: 2%;
+        margin-right: 2%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .pubimg{
+        margin-bottom: 2em;
+        padding: .7em;
+        
+    }
+    .img{
+        height: 60%;
+        width: 60%;
+    }
+    .pubrelease{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .pubprice{
+        margin-left: 1em;
+        padding: .2em;
+    
+    }
+    .circular{
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        
+    }
+    .dispcontent{
+        margin-bottom: 5em;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    
+}

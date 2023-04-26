@@ -42,3 +42,41 @@
     align-items: center;
     justify-content: center;
 }
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .2em;
+    font-weight: lighter;
+    color: seagreen;
+}
+@media screen and (max-width: 600px) {
+    .whatsapp{
+        margin-right:.8em;
+    }
+    .instagram{
+        margin-right:.8em;
+    }
+    .twitter{
+        margin-right:.8em;
+    
+    }
+
+    
+}
+@media screen and (max-width: 300px) {
+    .whatsapp{
+        margin-right:.5em;
+    }
+    .instagram{
+        margin-right:.5em;
+    }
+    .twitter{
+        margin-right:.5em;
+    
+    }
+    .right{
+        font-size: smaller;
+    }
+    
+}

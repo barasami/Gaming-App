@@ -5,6 +5,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
+    let today=new Date().getFullYear()
   return (
     <div className='footer'>
         <div className='content'>
@@ -20,6 +21,9 @@ function Footer() {
                 </div>
             </div>
            
+        </div>
+        <div className='right'>
+            <p>&copy;Gaminghub ,{today} All Rights Reserved</p>
         </div>
     </div>
   )
