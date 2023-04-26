@@ -11,17 +11,19 @@
     padding: .2em;  
 }
 .formdetail{
+    display: flex;
     margin-top: 7%;
     margin-left: 25%;
-   margin-right: 25%;
-   align-items: center;
-   justify-content: center;
+    margin-right: 25%;
+    align-items: center;
+    justify-content: center;
 
 }
 .myform{
-    margin-left: 25%;
+    display: flex;
+    margin-left: 30%;
     padding: .3em;
-    margin-right: 25%;
+    margin-right: 30%;
     align-items: center;
     justify-content: center;
     

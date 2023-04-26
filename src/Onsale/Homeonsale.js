@@ -6,15 +6,20 @@ import Form from '../Form/Form';
 function Homeonsale() {
     const [sale,setSale]=useState([])
     const [load,setLoad]=useState(false)
+    const[gamesearch,setGamesearch]=useState('GTA')
+
+    const gameSearch=(game)=>{
+        setGamesearch(game);
+    }
     useEffect(()=>{
         setLoad(true)
-        onSale()
+        onSale(gamesearch)
         .then(({data})=>{
             setSale(data)
             setLoad(false)
         })
 
-    },[])
+    },[gamesearch])
 
     const onsale=sale?.map((saling)=>{
         const{id,description,currentPrice,title,publisherName,keyImages,price}=saling
@@ -48,7 +53,7 @@ function Homeonsale() {
   return (
     <div>
         <div>
-            <Form/>
+            <Form gameNews={gameSearch}/>
         </div>
         {load ? <CircularProgress className='circular' color='inherit'/> :
         <div>
